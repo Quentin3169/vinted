@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost/vinted");
+// mongoose.connect("mongodb://localhost/vinted");
 const User = require("../models/User");
 
 const isAuthenticated = async (req, res, next) => {
