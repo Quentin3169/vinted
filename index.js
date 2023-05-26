@@ -28,6 +28,10 @@ app.use(loginRoutes);
 const publishOfferRoutes = require("./routes/publish_offer");
 app.use(publishOfferRoutes);
 
+app.get("/", async (req, res) => {
+  res.json(" NIQUE TA MERE LE S");
+});
+
 console.log("bonjour");
 console.log("loll");
 
